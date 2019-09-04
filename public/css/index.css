@@ -1,0 +1,30 @@
+body{
+  background-color: whitesmoke;
+  padding: 100px;
+}
+#maincard{
+  padding: 65px;
+}
+
+
+
+#cc{
+
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+}
+
+#oxyseal{
+  padding: 1px;
+}
+
+#skill-percent{
+  background-color: red;
+}
+
+#wrseal{
+  padding: 3px;
+  border-radius: 50%;
+}
+
