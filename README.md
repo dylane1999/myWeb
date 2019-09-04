@@ -1,2 +1,2 @@
-# Bathroom Locator
-A basic express app for locating restrooms in the Tenderloin of SF.
+# Website
+A basic express app for my personal branding .
