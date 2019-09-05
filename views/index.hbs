@@ -1,79 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <title>Dylan Edwards</title>
 
-    <meta name="theme-color" content="" />
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="Website title" />
-    <meta name="author" content="Dylan Edwards" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627" />
-    <link rel="shortcut icon" href="favicon.ico" />
+<head>
+  <title>Dylan Edwards</title>
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
- <!--   <link
+  <meta name="theme-color" content="" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="Website title" />
+  <meta name="author" content="Dylan Edwards" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627" />
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
+    integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw=" crossorigin="anonymous" />
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+  <!--   <link
       rel="stylesheet"
       href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
     />
     -->
-    <link
-      rel="stylesheet"
-      href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
-    />
-  
-  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono" />
 
-    <link rel="stylesheet" href="/css/index.css">
 
-    <link
-      id="color-CSS"
-      rel="stylesheet"
-      href="https://themes.gohugo.io//theme/aafu/css/aafu_light.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://themes.gohugo.io//theme/aafu/css/aafu.css"
-    />
 
-    <script>
-      var themeColor = document.querySelector("meta[name=theme-color]");
-      window.onload = function() {
-        themeColor.content = getComputedStyle(document.body)[
-          "background-color"
-        ];
-        let defaultActivePanel = document.querySelector(".accordion.active")
-          .nextElementSibling;
-        defaultActivePanel.style.maxHeight =
-          defaultActivePanel.scrollHeight + "px";
-      };
-      window.onresize = function() {
-        document.querySelector(".active").nextElementSibling.style.maxHeight =
-          document.querySelector(".active").nextElementSibling.scrollHeight +
-          "px";
-      };
-    </script>
-  </head>
-  <body class="container" style="max-width: 1400px;">
-    <div class="ml-auto mr-auto row row-eq-height rounded">
-      <div class="col-md-5 text-center p-2 mt-3">
-        <div class="profile-area rounded text-center position-relative">
+  <link rel="stylesheet" href="/css/index.css">
+
+  <link id="color-CSS" rel="stylesheet" href="https://themes.gohugo.io//theme/aafu/css/aafu_light.css"
+    type="text/css" />
+  <link rel="stylesheet" href="https://themes.gohugo.io//theme/aafu/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = function () {
+      themeColor.content = getComputedStyle(document.body)[
+        "background-color"
+      ];
+      let defaultActivePanel = document.querySelector(".accordion.active")
+        .nextElementSibling;
+      defaultActivePanel.style.maxHeight =
+        defaultActivePanel.scrollHeight + "px";
+    };
+    window.onresize = function () {
+      document.querySelector(".active").nextElementSibling.style.maxHeight =
+        document.querySelector(".active").nextElementSibling.scrollHeight +
+        "px";
+    };
+  </script>
+</head>
+
+<body class="container" style="max-width: 1400px;">
+  <div class="ml-auto mr-auto row row-eq-height rounded">
+    <div class="col-md-5 text-center p-2 mt-3">
+      <div id="idcardbg" class="profile-area rounded text-center position-relative">
 
         <!-------------------------Code for toggle swtich background ----------------------------------
 
@@ -87,42 +75,39 @@
             ></i>
           </div>
                     ---------------------------------------------->
-          <script>
-            const mainTheme = "\/css\/aafu_light.css";
-            const altTheme = "\/css\/aafu_dark.css";
-            const currentCSS = document.querySelector("#color-CSS");
-            function toggleTheme(elem) {
-              elem.classList.toggle("fa-toggle-off");
-              elem.classList.toggle("fa-toggle-on");
-              if (currentCSS.href.includes(mainTheme)) {
-                currentCSS.setAttribute("href", "." + altTheme);
-              } else {
-                currentCSS.setAttribute("href", "." + mainTheme);
-              }
+        <script>
+          const mainTheme = "\/css\/aafu_light.css";
+          const altTheme = "\/css\/aafu_dark.css";
+          const currentCSS = document.querySelector("#color-CSS");
+          function toggleTheme(elem) {
+            elem.classList.toggle("fa-toggle-off");
+            elem.classList.toggle("fa-toggle-on");
+            if (currentCSS.href.includes(mainTheme)) {
+              currentCSS.setAttribute("href", "." + altTheme);
+            } else {
+              currentCSS.setAttribute("href", "." + mainTheme);
             }
+          }
 
-            function changeThemeColor() {
-              themeColor.content = getComputedStyle(document.body)[
-                "background-color"
-              ];
-            }
-            const thisBody = document.body;
-            thisBody.addEventListener("webkitTransitionEnd", changeThemeColor);
-            thisBody.addEventListener("transitionend", changeThemeColor);
-          </script>
+          function changeThemeColor() {
+            themeColor.content = getComputedStyle(document.body)[
+              "background-color"
+            ];
+          }
+          const thisBody = document.body;
+          thisBody.addEventListener("webkitTransitionEnd", changeThemeColor);
+          thisBody.addEventListener("transitionend", changeThemeColor);
+        </script>
 
-          <div class="d-flex justify-content-center pt-2">
-            <div class="w-100 h-100">
-              <img
-                class="rounded rounded-circle mt-4"
-                src="https://media.licdn.com/dms/image/C4D03AQFUWE5rHdve0A/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=5XkovM3UEH42PsWCdzjz84QVmPLrVp-IIOHAp7-384Y"
-                alt="Darshan Baral"
-                style="width: 95%; max-width: 300px;"
-              />
-            </div>
+        <div class="d-flex justify-content-center pt-2">
+          <div class="w-100 h-100">
+            <img class="rounded rounded-circle mt-4"
+              src="https://media.licdn.com/dms/image/C4D03AQFUWE5rHdve0A/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=5XkovM3UEH42PsWCdzjz84QVmPLrVp-IIOHAp7-384Y"
+              alt="Darshan Baral" style="width: 95%; max-width: 300px;" />
           </div>
-
-          <div  class="p-2">
+        </div>
+        <div id="idcard">
+          <div class="p-2">
             <h1 class="mb-0">Dylan Edwards</h1>
             <br />
             <h2 class="mb-0">
@@ -139,9 +124,7 @@
               </div>
 
               <div style="height:45px; width:45px;">
-                <a
-                  href="https://stackoverflow.com/users/11909298/dylan-edwards"
-                >
+                <a href="https://stackoverflow.com/users/11909298/dylan-edwards">
                   <i class="zoomlink mt-1 fab fa-stack-overflow"></i>
                 </a>
               </div>
@@ -155,17 +138,19 @@
           </div>
         </div>
       </div>
-      <div id="maincard" class="col-md-7 pt-2 mt-3">
-        <h2 class="accordion  active ">
-          <span onclick="expandAccordion(this)" style="cursor: pointer;">
-            <i class="fas fa-user"></i>
-            About Me</span
-          >
-        </h2>
-        <div class="panel overflow-hidden">
-          <p class="markdownify">
-            <h5
-              >I have always been passionate about empowering others with the
+
+
+    </div>
+    <div id="maincard" class="col-md-7 pt-2 mt-3">
+      <h2 class="accordion  active ">
+        <span id="icons" onclick="expandAccordion(this)" style="cursor: pointer;">
+          <i class="fas fa-user"></i>
+          About Me</span>
+      </h2>
+      <div class="panel overflow-hidden">
+        <p class="markdownify">
+          <div class="ui compact segment" id="about">
+            <pp id="text">I have always been passionate about empowering others with the
               tools and knowledge they need to improve their own situations. As
               someone who has founded a community organization to bring
               essential supplies and aid to homeless and displaced citizens, I
@@ -190,187 +175,192 @@
               <br />
               This summer, I will be attending a coding bootcamp in San
               Francisco in order to learn more about programing and web
-              development.
-            </h5>
-          </p>
-        </div>
-
-        <h2 class="accordion ">
-          <span onclick="expandAccordion(this)" style="cursor: pointer;">
-            <i class="fas fa-briefcase"></i>
-            Experiences</span
-          >
-        </h2>
-        <div class="panel overflow-hidden">
-          <dl>
-            <dt class="mb-0">
-              <h5>Student Software Developer and Web Designer</h5>
-            </dt>
-            <dd class="mb-0 ml-3">
-              <span class="markdownify">2019 - <em>Present</em></span> &middot;
-              Adjacent Technologies
-            </dd>
-            <dd class="mb-0 ml-4 markdownify">
-              Took part in a selective web development program in which I worked
-              on web applications and other projects with students from
-              prestigious universities all across the world. Earned two college
-              credits in DIG 221 and CIS 121, and learned the technical and
-              bussiness side of web development from indusrty insiders. This
-              program culminated in a two week long project that we pitched to a
-              venture capital firm called Entangled group.
-            </dd>
-          </dl>
-
-          <dl>
-            <dt class="mb-0">
-              President and Founder
-            </dt>
-            <dd class="mb-0 ml-3">
-              <span class="markdownify">2019 - <em>Present</em></span> &middot;
-              SCV Urge
-            </dd>
-            <dd class="mb-0 ml-3">
-                An organization dedicated to solving the global issue of
-                homelessness, starting with the Santa Clarita Valley. Organize
-                and provide the weekly meal program at our local shelter: Bridge
-                to Home. Raised over $6,500 to fund programs for a local
-                non-profit Family Promise, developed and organized Clothed in
-                Dignity (an event that provides local homeless families with
-                clothing and necessities in a “shopping” experience with food,
-                entertainment, and art. (Please find the link to my website
-                here: <a href="www.scvurge.weebly.com"> www.scvurge.weebly.com</a>
-              
-            </dd>
-            <dd class="mb-0 ml-4 markdownify"></dd>
-          </dl>
-        </div>
-
-        <h2 class="accordion ">
-          <span onclick="expandAccordion(this)" style="cursor: pointer;">
-            <i class="fas fa-graduation-cap"></i>
-            Education</span
-          >
-        </h2>
-        <div class="panel overflow-hidden">
-          <dl>
-            <dt>Bachelors in Computer Science</dt>
-            <dd class="mb-0 ml-3">
-              2018 - 2022 &middot; Occidental College <img id="oxyseal" src="/img/oxyseal.png" height="50px" width="50px" alt="oxy seal">
-            </dd>
-
-          </dl>
-
-          <dl>
-            <dd class="mb-0 ml-3">
-              2014 - 2018 &middot; West Ranch High School  <img id="wrseal" src="/img/wrhs.jpg" height="50px" width="50px" alt="wrhs seal">
-            </dd>
-
-          </dl>
-
-        </div>
-
-        <h2 class="accordion ">
-          <span onclick="expandAccordion(this)" style="cursor: pointer;">
-            <i class="fas fa-project-diagram"></i>
-            Projects</span
-          >
-        </h2>
-        <div class="panel overflow-hidden">
-          <dl>
-            <dt>
-              <a href="http://wethepeoplesusa.com/" style="font-variant: small-caps; ">WE THE PEOPLE</a>
-            </dt>
-            <dd class="mb-0 ml-3 markdownify">We the People is an interactive and exciting way to bring the soul of the american constitution alive using technology. I helped to create this website as part of a team, our objective was to pack the contents of the constitution into a fun, digestible product for generations of people raised on tech who may not be familiar with its content.  This app contains an interactive constitution, a timeline, a quiz, info, and a text messaging feature. </dd>
-
-            <dt>
-              <a href="http://bathroom-locator.herokuapp.com/" style="font-variant: small-caps; ">BATHROOM LOCATOR</a>
-            </dt>
-            <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
-
-            <dt>
-              <a href="#" style="font-variant: small-caps; ">project</a>
-            </dt>
-            <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
-
-            <dt>
-              <a href="#" style="font-variant: small-caps; ">project</a>
-            </dt>
-            <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
-          </dl>
-        </div>
-
-        <h2 class="accordion ">
-          <span onclick="expandAccordion(this)" style="cursor: pointer;">
-            <i class="fas fa-cogs"></i>
-            Skills</span
-          >
-        </h2>
-        <div class="panel overflow-hidden" id="skill-panel">
-          <script>
-            let skillPanel = document.querySelector("#skill-panel")
-              .previousElementSibling;
-            skillPanel.addEventListener("click", function() {
-              let skillBars = document.querySelectorAll("#skill-percent");
-              skillBars.forEach(elem => {
-                elem.style.width = elem.classList[0];
-              });
-            });
-          </script>
-
-          <code>HTML & CSS</code>
-          <div class="progress">
-            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              development.</pp>
           </div>
+        </p>
+      </div>
 
-          <code>JAVASCRIPT</code>
+      <h2 class="accordion ">
+        <span id="icons" onclick="expandAccordion(this)" style="cursor: pointer;">
+          <i id="icons" class="fas fa-briefcase"></i>
+          Experiences</span>
+      </h2>
+      <div class="panel overflow-hidden">
+        <dl id="about" class="ui compact segment">
+          <dt class="mb-0">
+            <h5>Student Software Developer and Web Designer</h5>
+          </dt>
+          <dd class="mb-0 ml-3">
+            <span class="markdownify">2019 - <em>Present</em></span> &middot;
+            Adjacent Technologies
+          </dd>
+          <dd class="mb-0 ml-4 markdownify" id="text">
+            Took part in a selective web development program in which I worked
+            on web applications and other projects with students from
+            prestigious universities all across the world. Earned two college
+            credits in DIG 221 and CIS 121, and learned the technical and
+            bussiness side of web development from indusrty insiders. This
+            program culminated in a two week long project that we pitched to a
+            venture capital firm called Entangled group.
+          </dd>
+        </dl>
+
+        <dl id="about" class="ui compact segment">
+          <dt class="mb-0">
+            <h5>President and Founder </h5>
+          </dt>
+          <dd class="mb-0 ml-3">
+            <span class="markdownify">2019 - <em>Present</em></span> &middot;
+            SCV Urge
+          </dd>
+          <dd class="mb-0 ml-3" id="text">
+            An organization dedicated to solving the global issue of
+            homelessness, starting with the Santa Clarita Valley. Organize
+            and provide the weekly meal program at our local shelter: Bridge
+            to Home. Raised over $6,500 to fund programs for a local
+            non-profit Family Promise, developed and organized Clothed in
+            Dignity (an event that provides local homeless families with
+            clothing and necessities in a “shopping” experience with food,
+            entertainment, and art. (Please find the link to my website
+            here: <a href="www.scvurge.weebly.com"> www.scvurge.weebly.com</a>
+
+          </dd>
+          <dd class="mb-0 ml-4 markdownify"></dd>
+        </dl>
+
+
+      </div>
+
+      <h2 class="accordion ">
+        <span id="icons" onclick="expandAccordion(this)" style="cursor: pointer;">
+          <i class="fas fa-graduation-cap"></i>
+          Education</span>
+      </h2>
+      <div class="panel overflow-hidden">
+        <dl id="about" class="ui compact segment ">
+          <dt>Bachelors in Computer Science</dt>
+          <dd class="mb-0 ml-3">
+            2018 - 2022 &middot; Occidental College <img id="oxyseal" src="/img/oxyseal.png" height="50px" width="50px"
+              alt="oxy seal">
+          </dd>
+
+        </dl>
+
+        <dl id="about1" class="ui compact segment">
+          <dd class="mb-0 ml-3">
+            2014 - 2018 &middot; West Ranch High School <img id="wrseal" src="/img/wrhs.jpg" height="50px" width="50px"
+              alt="wrhs seal">
+          </dd>
+
+        </dl>
+        <br>
+
+      </div>
+
+      <h2 class="accordion ">
+        <span id="icons" onclick="expandAccordion(this)" style="cursor: pointer;">
+          <i class="fas fa-project-diagram"></i>
+          Projects</span>
+      </h2>
+      <div class="panel overflow-hidden">
+        <dl id="about" class="ui segment">
+          <dt>
+            <a href="http://wethepeoplesusa.com/" id="text" style="font-variant: small-caps; ">WE THE PEOPLE</a>
+          </dt>
+          <dd id="text" class="mb-0 ml-3 markdownify">We the People is an interactive and exciting way to bring the soul
+            of the
+            american constitution alive using technology. I helped to create this website as part of a team, our
+            objective was to pack the contents of the constitution into a fun, digestible product for generations of
+            people raised on tech who may not be familiar with its content. This app contains an interactive
+            constitution, a timeline, a quiz, info, and a text messaging feature. </dd>
+
+          <dt>
+            <a href="http://bathroom-locator.herokuapp.com/" id="text" style="font-variant: small-caps; ">BATHROOM
+              LOCATOR</a>
+          </dt>
+          <dd id="text" class="mb-0 ml-3 markdownify">Description of the project</dd>
+
+          <dt>
+            <a href="#" style="font-variant: small-caps; ">project</a>
+          </dt>
+          <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+
+          <dt>
+            <a href="#" style="font-variant: small-caps; ">project</a>
+          </dt>
+          <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+        </dl>
+      </div>
+
+      <h2 class="accordion ">
+        <span id="icons" onclick="expandAccordion(this)" style="cursor: pointer;">
+          <i class="fas fa-cogs"></i>
+          Skills</span>
+      </h2>
+      <div class="panel overflow-hidden" id="skill-panel">
+        <script>
+          let skillPanel = document.querySelector("#skill-panel")
+            .previousElementSibling;
+          skillPanel.addEventListener("click", function () {
+            let skillBars = document.querySelectorAll("#skill-percent");
+            skillBars.forEach(elem => {
+              elem.style.width = elem.classList[0];
+            });
+          });
+        </script>
+        <div id="about" class="ui segment">
+          <h4 id="text">HTML CSS:</h4>
           <div class="w-100 skillbar mt-1 mb-3">
             <div id="skill-percent" class="38%" style="width: 0;"></div>
           </div>
 
-          <code>TEAMWORK</code>
+          <h4 id="text">Javascript</h4>
+          <div class="w-100 skillbar mt-1 mb-3">
+            <div id="skill-percent" class="38%" style="width: 0;"></div>
+          </div>
+
+          <h4 id="text">Teamwork</h4>
           <div class="w-100 skillbar mt-1 mb-3">
             <div id="skill-percent" class="84%" style="width: 0;"></div>
           </div>
 
-          <code>WRITING</code>
+          <h4 id="text">Writing</h4>
           <div class="w-100 skillbar mt-1 mb-3">
             <div id="skill-percent" class="84%" style="width: 0;"></div>
           </div>
 
-          <code>PROBLEM SOLVING</code>
+          <h4 id="text">Problem Solving</h4>
           <div class="w-100 skillbar mt-1 mb-3">
             <div id="skill-percent" class="84%" style="width: 0;"></div>
           </div>
 
-          <code>CREATIVITY</code>
+          <h4 id="text">Creativity</h4>
           <div class="w-100 skillbar mt-1 mb-3">
             <div id="skill-percent" class="84%" style="width: 0;"></div>
           </div>
-
+        </div>
         <!-- end of pannel -->
-        </div>
-        
-
-        <h2 class="accordion ">
-          <span onclick="expandAccordion(this)" style="cursor: pointer;">
-            <i class="fas fa-gamepad"></i>
-            Hobbies</span
-          >
-        </h2>
-        <div class="panel overflow-hidden">
-          <ul class="pl-0">
-            <li class="list-unstyled mb-2">FASHION</li>
-
-            <li class="list-unstyled mb-2">DESIGN</li>
-
-            <li class="list-unstyled mb-2">MUSIC</li>
-          </ul>
-        </div>
-
-        <script src="https://themes.gohugo.io//theme/aafu/js/accordion.js"></script>
       </div>
+
+
+      <h2 class="accordion ">
+        <span id="icons" onclick="expandAccordion(this)" style="cursor: pointer;">
+          <i class="fas fa-gamepad"></i>
+          Hobbies</span>
+      </h2>
+      <div class="panel overflow-hidden">
+        <ul id="about" class="ui segment">
+          <li class="list-unstyled mb-2">FASHION</li>
+
+          <li class="list-unstyled mb-2">DESIGN</li>
+
+          <li class="list-unstyled mb-2">MUSIC</li>
+        </ul>
+      </div>
+
+      <script src="https://themes.gohugo.io//theme/aafu/js/accordion.js"></script>
     </div>
-  </body>
-  <button type="button" class="btn btn-primary"> mail <a href="mailto:dylanedwards290@gmail.com"> </button>
+  </div>
+</body>
 
 </html>
