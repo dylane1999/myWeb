@@ -17,6 +17,13 @@ body{
   text-shadow: 5px 5px 4px #000000;
 
 }
+
+#profilepic{
+  width: 150;
+  height: 200px;
+  background: #000;
+  border-radius: 50%;
+}
 #about{
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
