@@ -18,12 +18,30 @@ body{
 
 }
 
+/*
 #profilepic{
   width: 150;
   height: 200px;
   background: #000;
   border-radius: 50%;
 }
+*/
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
 #about{
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
