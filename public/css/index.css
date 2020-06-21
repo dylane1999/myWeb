@@ -1,85 +1,8 @@
-body{
-  /* The image used */
-  background: url("/img/test5.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  padding: 100px;
-}
-#maincard{
-  padding: 65px;
-}
-#idcardbg{
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  text-shadow: 5px 5px 4px #000000;
-
+#bg{
+  background-color: #F6F5F5;
 }
 
-/*
-#profilepic{
-  width: 150;
-  height: 200px;
-  background: #000;
-  border-radius: 50%;
-}
-*/
-
-.circular--landscape {
-  display: inline-block;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.circular--landscape img {
-  width: auto;
-  height: 100%;
-  margin-left: -50px;
-}
-
-#about{
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  text-shadow: 5px 5px 4px #000000;
-}
-
-#about1{
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  text-shadow: 5px 5px 4px #000000;
-}
-#text{
- font-size: 16px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#icons{
-  color: white;
-  text-shadow: 5px 5px 4px #000000;
-
-}
-
-#cc{
-
-  position: fixed;
-  bottom: 10px;
-  right: 40px;
-}
-
-#oxyseal{
-  padding: 1px;
-}
-
-#skill-percent{
-  background-color: red;
-}
-
-#wrseal{
-  padding: 3px;
-  border-radius: 50%;
+#bg2{
+  background-color: white;
 }
 
