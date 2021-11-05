@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "aws s3 sync dist/ s3://dylan-edwards.com --acl public-read"
+
   },
   "repository": {
     "type": "git",

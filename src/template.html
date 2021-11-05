@@ -106,7 +106,7 @@
                   sentiment).
                 </p>
               </div>
-              <a target="_blank" class="cta-btn cta-btn--hero" href="http://twitter-sentiment-analysis.com/">
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://app.twitter-sentiment-analysis.org/">
                 See Live
               </a>
               <a target="_blank" class="cta-btn text-color-main"
@@ -131,28 +131,62 @@
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">SQL Interactive</h3>
+              <h3 class="project-wrapper__text-title">Intellivest (Micro Services & Cloud Computing)</h3>
               <div>
                 <p class="mb-4">
-                  SQL Interactive is a web app designed to help software engineers starting out to understand the basics
-                  of relational databases and SQL. It also allows
-                  them to get practice with SQL with a live SQL playground and 9 challenges.
+                  Intellivest is a fictional finance based social media application that I build in order to demonstrate
+                  the functionality
+                  and advantages of micro services. Each service is written with Java Spring Boot and run through a
+                  Github actions CI/CD pipeline where
+                  each service is deployed behind a load balancer in an ECS service. all endpoints are accesible by one
+                  API Gateway.
                 </p>
               </div>
-              <a target="_blank" class="cta-btn cta-btn--hero" href="http://sqlinteractive.org/">
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://intellivest.netlify.app/">
                 See Live
               </a>
-              <a target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/dylane1999/sql-interactive-tutorial.git">
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="http://twitter-sentiment-analysis.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/IntellivestPoster.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">NLP - Lyric Generation</h3>
+              <div>
+                <p class="mb-4">
+                  I created a Natural Language Model using an LSTM RNN along with the word vectors from GloVe as model
+                  weights in order to generate lyrics from Country, Metal, Rock, and Pop music.
+                  To train theModel I seperated and encoded the input texts for each genre into trigram word vectors
+                  that pointed to a target word. To generate words I would use the trained model to predict next words
+                  and chain that to create new lyrics.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--whitepaper" href="">
+                Read the White Paper
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/dylane1999/Lyric-Generation">
                 Source Code
               </a>
             </div>
           </div>
           <div class="col-lg-8 col-sm-12">
             <div class="project-wrapper__image">
-              <a href="http://sqlinteractive.org/" target="_blank">
+              <a href="https://github.com/dylane1999/Lyric-Generation" target="_blank">
                 <div data-tilt class="thumbnail rounded">
-                  <img class="img-fluid" src="./assets/SqlInteractive.png" />
+                  <img class="img-fluid" src="./assets/lyricGeneration.png" />
                 </div>
               </a>
             </div>
@@ -251,6 +285,39 @@
               <a href="https://vindici.netlify.app/" target="_blank">
                 <div data-tilt class="thumbnail rounded">
                   <img class="img-fluid" src="./assets/VindiciLanding.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">SQL Interactive</h3>
+              <div>
+                <p class="mb-4">
+                  SQL Interactive is a web app designed to help software engineers starting out to understand the basics
+                  of relational databases and SQL. It also allows
+                  them to get practice with SQL with a live SQL playground and 9 challenges.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="http://sqlinteractive.org/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/dylane1999/sql-interactive-tutorial.git">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="http://sqlinteractive.org/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/SqlInteractive.png" />
                 </div>
               </a>
             </div>
